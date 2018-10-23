@@ -1,0 +1,86 @@
+body {
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='733' height='733' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+	
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+#photo-cv {
+	box-shadow: 2px, 2px, 3px, blue;
+	border-radius: 50%; 
+}
+.btn-blue {
+	background-color: rgb(230, 230, 230);
+	font-color: rgb(220, 239, 250);
+	padding: 10px 10px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+}
+.card-white-titre { 
+	background-color: rgb(37, 112, 155);
+	padding: 10px;
+	box-shadow: 0px, 10px, 30px, rgba (0, 0, 0, 1);
+    border-radius: 4px;
+    margin: 50px 0px;
+ }
+
+.list-inline-without-bullet-point{
+ 	list-style-type: none;
+ 	padding-left: 0px;
+}  
+.list-inline-without-bullet-point li{
+	display: inline;
+	font-size: 50px;
+}
+.list-inline-without-bullet-point i:hover{
+	color: rgb(230, 230, 230);
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
